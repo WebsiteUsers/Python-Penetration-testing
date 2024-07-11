@@ -10,7 +10,7 @@ port = 444
 
 
 # Binding to socket
-serverssocket.bind(('', port))
+serverssocket.bind(('FILL WITH IP', port))
 
 #starting the TCP listener
 serverssocket.listen(3)
