@@ -9,7 +9,7 @@ host = socket.gethostname()
 
 port = 444
 
-clientsocket.connect(('192.168.0.66', port))
+clientsocket.connect(('FILL WITH IP', port))
 
 
 message = clientsocket.recv(1024)
