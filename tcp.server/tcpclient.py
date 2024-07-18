@@ -4,7 +4,7 @@ import socket
 
 clientsocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-# host = '192.168.0.66'
+# host = ''
 host = socket.gethostname()
 
 port = 444
